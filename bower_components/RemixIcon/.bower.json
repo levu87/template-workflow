@@ -1,0 +1,14 @@
+{
+  "name": "RemixIcon",
+  "homepage": "https://github.com/Remix-Design/RemixIcon",
+  "version": "2.5.0",
+  "_release": "2.5.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.5.0",
+    "commit": "755818100db4687fd907ecaef9f57cc9ea77d0d8"
+  },
+  "_source": "https://github.com/Remix-Design/RemixIcon.git",
+  "_target": "^2.5.0",
+  "_originalSource": "https://github.com/Remix-Design/RemixIcon.git"
+}

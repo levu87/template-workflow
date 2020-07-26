@@ -1,0 +1,99 @@
+@keyframes zoom
+  from
+    transform: scale(1)
+  to
+    transform: scale(1.2)
+@keyframes moveInLeft
+  0%
+    opacity: 0
+    transform: translateX(-30rem)
+
+  80%
+    transform: translateX(5rem)
+
+  100%
+    opacity: 1
+    transform: translateX(0)
+@keyframes moveInRight
+  0%
+    opacity: 0
+    transform: translateX(30rem)
+
+  80%
+    transform: translateX(-5rem)
+
+  100%
+    opacity: 1
+    transform: translateX(0)
+@keyframes moveInBottom
+  0%
+    opacity: 0
+    transform: translateY(5rem)
+
+  100%
+    opacity: 1
+    transform: translateY(0)
+@keyframes returnToNormal
+  from
+    opacity: 0
+    -webkit-transform: translate3d(0, 100%, 0)
+    transform: translate3d(0, 100%, 0)
+  to
+    opacity: 1
+    -webkit-transform: none
+    transform: none
+
+@keyframes growth
+  from
+    transform: scale(.7)
+  to
+    transform: scale(1)
+@keyframes fade-in
+  from
+    opacity: 0
+  to
+    opacity: 1
+@keyframes lineAnimation
+  0%
+    width: 0
+  100%
+    width: 20rem
+@keyframes slideInRight
+  0%
+    opacity: 0
+    transform: translateX(-50%)
+
+  100%
+    opacity: 1
+    transform: none
+@keyframes fadeLeft
+  0%
+    opacity: 0
+    transform: translateX(30rem)
+
+  100%
+    transform: translateX(0rem)
+    opacity: 1
+.animatable
+  visibility: hidden
+  animation-play-state: paused
+.animated
+  visibility: visible
+  animation-duration: 1s
+  animation-fill-mode: both
+  animation-play-state: running
+.animated.moveInBottom
+  animation: moveInBottom 2s ease-in-out
+.animated.moveInLeft
+  animation-name: moveInLeft
+.animated.moveInTop
+  animation-name: moveInTop
+.animated.moveInRight
+  animation-name: moveInRight
+@keyframes loader
+  25%
+    color: #ffffff
+  75%
+    color: #666666
+  to
+    transform: rotate(360deg)
